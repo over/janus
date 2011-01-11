@@ -1,0 +1,4 @@
+echo 'Start generating ctags'
+ctags -R --languages=ruby app/* lib/* vendor/* config/* spec/*ictags -R --languages=ruby app/* lib/* vendor/* config/* spec/*
+ctags -R -a --languages=js public/javascripts/*
+echo 'Done'
