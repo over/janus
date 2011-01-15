@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/over'
-let g:netrw_dirhist_2='/Users/over/tmp/inherited_resources-1.1.2'
-let g:netrw_dirhist_3='/Library/LaunchDaemons'
-let g:netrw_dirhist_4='/Users/over'
-let g:netrw_dirhist_5='/Users/over/Sites/sfs'
-let g:netrw_dirhist_6='/Users/tm/Sites/tm-admin'
-let g:netrw_dirhist_7='/Users/tm/.vim'
-let g:netrw_dirhist_8='/Users/tm/Sites/tm-admin'
-let g:netrw_dirhist_9='/Users/tm/Sites/telemarker'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/over/Sites/sfs'

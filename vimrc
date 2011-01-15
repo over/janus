@@ -44,6 +44,7 @@ map <Leader><Leader> :ZoomWin<CR>
 map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
 map <C-Left> :bp<CR>
 map <C-Right> :bn<CR>
+map <C-q> :Bclose<CR>
 
 " Autocomplete for ruby
 let g:rubycomplete_rails = 1
