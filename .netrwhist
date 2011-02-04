@@ -1,8 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/over/Sites/sfs'
-let g:netrw_dirhist_2='/Users/over/Sites/gladkoborodov_blog'
-let g:netrw_dirhist_3='/Users/over/Sites/tnp'
-let g:netrw_dirhist_4='/Users/over/Sites/sfs'
-let g:netrw_dirhist_5='/Users/over/.vim'
-let g:netrw_dirhist_6='/Users/over/Sites/sfs'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/tm/Sites/redmine'
+let g:netrw_dirhist_2='/Users/tm/Sites/telemarker'
+let g:netrw_dirhist_3='/Users/tm/Sites/redmine'
+let g:netrw_dirhist_4='/Users/tm/Sites/telemarker'
+let g:netrw_dirhist_5='/Users/tm/Sites/tm-admin'

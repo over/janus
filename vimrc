@@ -42,9 +42,13 @@ map <Leader><Leader> :ZoomWin<CR>
 
 " CTags
 map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+map <C-h> :bp<CR>
+map <C-l> :bn<CR>
+
 map <C-Left> :bp<CR>
 map <C-Right> :bn<CR>
 map <C-q> :Bclose<CR>
+map <D-r> :NERDTreeFind<CR>
 
 " Autocomplete for ruby
 let g:rubycomplete_rails = 1
@@ -123,5 +127,9 @@ endif
 set guifont=Monaco:h12
 let g:user_zen_expandabbr_key = '<c-e>'
 let g:use_zen_complete_tag = 1
+
+au BufNewFile,BufRead *.ejs set filetype=html
 au BufNewFile,BufRead *.as set ft actionscript
 autocmd FileType yml setlocal autoindent
+
+
