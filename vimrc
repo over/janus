@@ -115,7 +115,7 @@ set modeline
 set modelines=10
 
 " Default color scheme
-colorscheme desert
+colorscheme twilight
 
 "Directories for swp files
 set backupdir=~/.vim/backup
