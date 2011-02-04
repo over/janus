@@ -49,6 +49,8 @@ map <C-Left> :bp<CR>
 map <C-Right> :bn<CR>
 map <C-q> :Bclose<CR>
 map <D-r> :NERDTreeFind<CR>
+map <D-k> 50k
+map <D-j> 50j
 
 " Autocomplete for ruby
 let g:rubycomplete_rails = 1
