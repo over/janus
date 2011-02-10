@@ -51,6 +51,7 @@ map <C-q> :Bclose<CR>
 map <D-r> :NERDTreeFind<CR>
 map <D-k> 50k
 map <D-j> 50j
+map <D-d> :noh<CR>
 
 " Autocomplete for ruby
 let g:rubycomplete_rails = 1

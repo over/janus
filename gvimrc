@@ -21,6 +21,7 @@ if has("gui_macvim")
   " Command-][ to increase/decrease indentation
   vmap <D-]> >gv
   vmap <D-[> <gv
+
 endif
 
 " Start without the toolbar
@@ -180,3 +181,4 @@ call s:DefineCommand("mkdir", "Mkdir")
 if filereadable(expand("~/.gvimrc.local"))
   source ~/.gvimrc.local
 endif
+
