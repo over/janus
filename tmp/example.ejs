@@ -1,0 +1,7 @@
+<div class="zhopa">
+  <% if (!this.view_options) this.view_options = {} %>
+  <% _.each(this.items, function(item, index) { %>
+    <%= tm.utils.render_template('grid_item_row', {item: item, index: index, opts: this.view_options}) %>
+  <% }.proxy(this)) %>
+</div>
+
