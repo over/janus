@@ -132,7 +132,9 @@ let g:user_zen_expandabbr_key = '<c-e>'
 let g:use_zen_complete_tag = 1
 
 au BufNewFile,BufRead *.ejs set filetype=html
-au BufNewFile,BufRead *.as set ft actionscript
+au BufNewFile,BufRead *.as set filetype=actionscript
+au BufNewFile,BufRead *.ncss set filetype=css
+
 autocmd FileType yml setlocal autoindent
 
 
